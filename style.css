@@ -2,6 +2,7 @@
 
 body{
     margin: 0;
+    padding: 0;
 }
 
 article{
@@ -12,30 +13,43 @@ article{
     border-radius: 6px;
     font-family: 'Roboto', sans-serif;
     position: relative;
+    display: inline-block;
+
 }
 
-
+p{
+    margin: 0;
+}
 
 #card1{
     background: linear-gradient(90deg, rgba(255,187,150,1) 50%, rgba(255,66,222,1) 100%);
 }
 
-.contentBox{
-    margin-left: 30px;
+#card2{
+    background: linear-gradient(90deg, rgba(138,203,255,1) 50%, rgba(0,146,255,1) 100%);
 }
+
+
+#card3{
+    background: linear-gradient(90deg, rgba(90,255,189,1) 50%, rgba(3,176,124,1) 100%);
+}
+
+
 
 .cardHeader{
     font-size: 1.4em;
     text-transform: capitalize;
+    padding: 40px 0 5px 30px;
 }
 
 .cardCounter{
     font-size: 2em;
+    padding: 5px 0 30px 30px;
 }
 
 .cardFooter{
     font-size: 1.2em;
-
+    padding: 30px 0 5px 30px;
 }
 
 .card::before{
@@ -64,6 +78,6 @@ article{
 
 .pict{
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: 40px;
+    right: 40px;
 }
